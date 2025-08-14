@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ======================= */
+/* ✅ DARK THEME OVERRIDES */
+/* ======================= */
+
+/* Optional: Base background/text for dark mode */
+html.dark {
+  background-color: #111827; /* gray-900 */
+  color: #f9fafb; /* gray-50 */
+}
+
+/* Add transition to theme switching */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ======================= */
+/* ✅ ANIMATIONS + UTILS   */
+/* ======================= */
+
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -28,7 +47,7 @@
 
 .animate-shimmer {
   animation: shimmer 2s infinite;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
   background-size: 200% 100%;
 }
 
@@ -122,7 +141,10 @@
   animation: pulse-slow 3s ease-in-out infinite;
 }
 
-/* Custom scrollbar */
+/* ======================= */
+/* ✅ SCROLLBAR STYLING    */
+/* ======================= */
+
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -141,12 +163,14 @@
   background: linear-gradient(to bottom, #7c3aed, #db2777);
 }
 
-/* Smooth focus transitions */
+/* ======================= */
+/* ✅ FOCUS + SMOOTHING    */
+/* ======================= */
+
 * {
   scroll-behavior: smooth;
 }
 
-/* Enhanced focus styles */
 button:focus-visible,
 input:focus-visible,
 select:focus-visible,
