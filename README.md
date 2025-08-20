@@ -1,6 +1,6 @@
 # Glimmer - Revolutionary AI Storytelling Platform 
 
-Glimmer is an advanced AI-powered storytelling platform designed specifically for children, featuring groundbreaking interactive theater, AI-generated visual storybooks, therapeutic story therapy, and personalized voice narration.
+Glimmer is an AI-powered storytelling platform designed specifically for children, featuring groundbreaking interactive theater, AI-generated visual storybooks, therapeutic story therapy, and personalized voice narration.
 
 ## Revolutionary Features
 
@@ -21,7 +21,7 @@ Glimmer is an advanced AI-powered storytelling platform designed specifically fo
 **Professional-grade therapeutic support through storytelling!**
 - **6 Therapeutic Focus Areas**: Emotional regulation, social skills, anxiety management, self-confidence, communication, trauma processing
 
-### **Advanced Voice Selection System**
+### ** Voice Selection System**
 **Choose from 5 unique narrator personalities!**
 - **Cheerful Friend**: Warm, energetic, and encouraging voice
 - **Wise Storyteller**: Calm, knowing voice perfect for bedtime stories
